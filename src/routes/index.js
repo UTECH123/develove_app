@@ -59,6 +59,10 @@ const routes = [
     component: Mentor,
   },
   {
+    path: '/mentor/formmentor',
+    component: Mentor,
+  },
+  {
     path: '/settings-profile',
     component: ProfileSettings,
   },
