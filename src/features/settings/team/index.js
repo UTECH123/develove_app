@@ -6,7 +6,7 @@ const TopSideButtons = () => {
 
     return(
         <div className="inline-block float-right">
-            <button className="btn px-6 btn-sm normal-case btn-primary" >Tambah Mentor</button>
+            <button className="btn px-6 btn-sm normal-case btn-primary" >Pengajuan Cuti</button>
         </div>
     )
 }
@@ -18,8 +18,6 @@ const TEAM_MEMBERS = [
     {name : "Reza", avatar : "/reza.jfif", email : "rezaa@gmail.com", status : "Aktif", role : "Adobe Firefly"},
     {name : "Hasan Harahap", avatar : "/hasan.jfif", email : "hasanharap@gmail.com", status : "Aktif", role : "Photoshop"},
     {name : "Lauren", avatar : "/lau.jfif", email : "lauren@gmail.com", status : "Aktif", role : "Figma"},
-
-
 ]
 
 function Team(){
