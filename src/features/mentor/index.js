@@ -1,5 +1,6 @@
 import moment from "moment"
 import { useEffect, useState } from "react"
+import { FaBeer } from "react-icons/fa"
 import { useDispatch, useSelector } from "react-redux"
 import TitleCard from "../../../components/Cards/TitleCard"
 import { showNotification } from '../../common/headerSlice'
@@ -8,7 +9,7 @@ const TopSideButtons = () => {
 
     return(
         <div className="inline-block float-right">
-            <button className="btn px-6 btn-sm normal-case btn-primary" >Tambah Mentor</button>
+            <button className="btn px-6 btn-sm normal-case btn-primary" >Tambah Mentor <FaBeer /></button>
         </div>
     )
 }

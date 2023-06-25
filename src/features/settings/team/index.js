@@ -6,7 +6,7 @@ const TopSideButtons = () => {
 
     return(
         <div className="inline-block float-right">
-            <button className="btn px-6 btn-sm normal-case btn-primary" >Pengajuan Cuti</button>
+            <button className="btn px-6 btn-sm normal-case btn-primary" >Tambah Mentor</button>
         </div>
     )
 }
